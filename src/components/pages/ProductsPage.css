@@ -1,0 +1,119 @@
+.inventory-container {
+    /* Container styles */
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.inventory-title {
+    
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-group {
+    /* Input group styles */
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
+label {
+    
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.inventory-input {
+    /* Input box styles */
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.2s ease;
+}
+
+.inventory-input:focus {
+    
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.button-container {
+    
+    text-align: center;
+}
+
+.inventory-button {
+    
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.inventory-button:disabled {
+    
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.inventory-button:hover:not(:disabled) {
+    
+    background-color: #0056b3;
+}
+
+.error-message {
+    
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.product-list {
+
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-item {
+    
+    padding: 5px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.product-status {
+    
+    font-weight: bold;
+}
+
+.status-in_stock {
+    color: green;
+}
+
+.status-out_of_stock {
+    color: red;
+}
+
+.status-low_stock {
+    color: orange;
+}
